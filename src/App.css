@@ -27,6 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+.today-section, .apod-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.today-button, .today-info {
+  margin-right: 8rem;
+}
+.apod-image, .apod-desc {
+  margin: 0 2rem;
+}
+.apod-desc {
+  margin-right: 3rem;
+}
 
 @keyframes App-logo-spin {
   from {
